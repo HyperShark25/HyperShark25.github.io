@@ -1,0 +1,120 @@
+body {
+	background-image: url('images/170809.jpg');
+}
+main {
+	padding-left: 13vw;
+	width: 72vw;
+	height: 1vh;
+}
+ol {
+	width: 68vw;
+	height: 51vh;
+	border-radius: 14px;
+	background-color: white;
+	opacity: 70%;
+	font-size: 2vw;
+	padding-left: 3vw;
+	overflow-y: scroll;
+	font-weight: bold;
+}
+li {
+	height: 4vh;
+	margin-top: 2vh;
+	display: flexbox;
+	align-items: right;
+	font-size: 1.8vw;
+}
+label {
+	font-weight: bold;
+	font-size: 3.5vw;
+	width: 1vw;
+}
+input {
+	width: 54vw;
+	height: 8vh;
+	border-radius: calc(1vw + 1vh);
+	opacity: 70%;
+	font-size: 2vw;
+	font-weight: bold;
+}
+button {
+	opacity: 85%;
+	height: 8vh;
+	width: 8vw;
+	border-radius: 2vw;
+	font-size: 2vw;
+	font-weight: bold;
+	border: 0px solid transparent;
+}
+fieldset {
+	margin-top: 8vh;
+	border: 10px solid black;
+	border-radius: 50px;
+	width: 72vw;
+	height: 80vh;
+}
+legend {
+	font-family: Aguafina-Script-Font;
+	text-align: center;
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+.edit, .remove {
+	background-color: black;
+	height: 5vh;
+	color: white;
+	transition: 1s;
+	float: right;
+	font-size: 100%;
+}
+.edit {
+	margin-right: 2vw;
+	width: 5vw;
+}
+.remove {
+	width: 7.5vw;
+	margin-right: 0.8vw;
+}
+.edit:hover {
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+.remove:hover {
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.line-separator {
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin: 20px 0;
+}
+.text {
+	font-size: 2vw;
+}
+
+.line-separator::before,
+.line-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.line-separator::before {
+  margin-right: .5em;
+}
+
+.line-separator::after {
+  margin-left: .5em;
+}
+
+.line-separator .text {
+  padding: 0 10px;
+}
