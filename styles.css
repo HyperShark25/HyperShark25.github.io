@@ -1,0 +1,219 @@
+body {
+	background-image: url('images/170809.jpg');
+}
+main {
+	padding-left: 13vw;
+	width: 72vw;
+	height: 1vh;
+}
+ol {
+	width: 68vw;
+	height: 51vh;
+	border-radius: 14px;
+	background-color: white;
+	opacity: 70%;
+	font-size: 2vw;
+	padding-left: 3vw;
+	overflow-y: scroll;
+	font-weight: bold;
+}
+li {
+	height: 4vh;
+	margin-top: 2vh;
+	display: flexbox;
+	align-items: right;
+	font-size: 1.8vw;
+}
+label {
+	font-weight: bold;
+	font-size: 3.5vw;
+	width: 1vw;
+}
+input {
+	width: 54vw;
+	height: 8vh;
+	border-radius: calc(1vw + 1vh);
+	opacity: 70%;
+	font-size: 2vw;
+	font-weight: bold;
+}
+input:focus {
+	background-color: black;
+	color: white;
+}
+button {
+	opacity: 85%;
+	height: 8vh;
+	width: 8vw;
+	border-radius: 2vw;
+	font-size: 2vw;
+	font-weight: bold;
+	border: 0px solid transparent;
+}
+fieldset {
+	margin-top: 8vh;
+	border: 10px solid black;
+	border-radius: 50px;
+	width: 72vw;
+	height: 80vh;
+}
+legend {
+	font-family: Aguafina-Script-Font;
+	text-align: center;
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+.edit, .remove {
+	background-color: black;
+	height: 5vh;
+	color: white;
+	transition: 1s;
+	float: right;
+	font-size: 100%;
+}
+.edit {
+	margin-right: 2vw;
+	width: 5vw;
+}
+.remove {
+	width: 7.5vw;
+	margin-right: 0.8vw;
+}
+.edit:hover {
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+.remove:hover {
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.line-separator {
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin: 20px 0;
+}
+.text {
+	font-size: 2vw;
+}
+
+.line-separator::before,
+.line-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.line-separator::before {
+  margin-right: .5em;
+}
+
+.line-separator::after {
+  margin-left: .5em;
+}
+
+.line-separator .text {
+  padding: 0 10px;
+}
+@media only screen and (max-width: 720px) {
+	body {
+		width: 100vw;
+		height: 100vh;
+		background-size: cover;
+	}
+	label {
+		font-size: 36px;
+	}
+	input {
+		width: 48vw;
+		font-size: 30px;
+	}
+	button {
+		width: 15vw;
+		font-size: 25px;
+	}
+	ol {
+		width: 72vw;
+		height: 65vh;
+	}
+	li {
+		font-size: 22px;
+	}
+	.edit {
+		width: 8vw;
+	}
+	.remove {
+		width: 13vw;
+	}
+}
+/*@media only screen and (max-width: 2560px) {
+	body {
+		background-image: url('images/170809.jpg');
+		background-size: cover;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	body {
+		background-image: url('images/170809.jpg');
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 425px) {
+	button {
+		width: 9vw;
+	}
+	input {
+		width: 52vw;
+	}
+	.edit, .remove {
+		font-size: calc(1vw + 1vh);
+	}
+	.edit {
+		width: 7vw;
+	}
+	.remove {
+		width: 11vw;
+	}
+	ol {
+		height: 58vh;
+	}
+	li {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	input {
+		width: 50vw;
+	}
+	button {
+		width: 11vw;
+	}
+	.edit {
+		width: 28px;
+		font-size: 8px;
+	}
+	.remove {
+		width: 42px;
+		font-size: 8px;
+	}
+	li {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.edit {
+		width: 24px;
+		font-size: 7px;
+	}
+	.remove {
+		width: 38px;
+		font-size: 7px;
+	}
+}*/
